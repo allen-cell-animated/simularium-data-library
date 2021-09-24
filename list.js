@@ -55,7 +55,7 @@ function renderTable(files, bucket_url) {
     {
       var filename = camalize(getFilename(key));
       var link = "https://simularium.allencell.org/viewer?trajUrl=" + bucket_url + "/" + key;
-      content += '<a href="' + link + '"><div class="trajectory"><h2>' + filename + '</h2>';
+      content += '<a target="_blank" href="' + link + '"><div class="trajectory"><h2>' + filename + '</h2>';
       content += key + '<br/>';
       content += '<span class="label">Modified:</span> ' + formatDate(item.LastModified) + '    ',
       content += '<span class="label">Size:</span> ' + formatSize(item.Size) + '</div></a>';
