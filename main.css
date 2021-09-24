@@ -1,0 +1,97 @@
+
+body {
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: 300;
+    color: #d3d3d3;
+    background-color: #1e1b25;
+}
+
+.title {
+    font-family: Overpass;
+    margin-left: 15;
+    margin-top: 50;
+    margin-bottom: 50;
+    font-size: 50;
+    font-weight: 100;
+    color: #d3d3d3;
+}
+
+.bucket {
+    font-size: 16px;
+    background-color: #1e1b25;
+    padding: 5 15;
+}
+
+.bucket:hover {
+    color: #1e1b25;
+    background-color: #b59ff6;
+}
+
+.bucket:hover h2 {
+    color: #4d0be6;
+}
+
+.bucket h2 {
+    color: #b59ff6;
+}
+
+h1 {
+    font-family: Overpass;
+    color: #b59ff6;
+    margin-left: 15;
+}
+
+h3 {
+    margin-left: 15;
+}
+
+.instructions {
+    font-family: Overpass;
+    font-size: 16px;
+    margin-left: 15;
+    margin-bottom: 40;
+}
+
+h2 {
+    font-family: Overpass;
+    margin-bottom: 0;
+}
+
+a:link {
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #b1aeb6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+a:active {
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+.trajectory {
+    background-color: #1e1b25;
+    padding: 5 15;
+}
+
+.trajectory:hover {
+    color: #1e1b25;
+    background-color: #b59ff6;
+}
+
+.trajectory:hover h2 {
+    color: #4d0be6;
+}
+
+.trajectory .label {
+    font-weight: bold;
+}
