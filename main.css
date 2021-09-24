@@ -53,6 +53,14 @@ h3 {
     margin-bottom: 40;
 }
 
+.error {
+    font-family: Overpass;
+    font-size: 16px;
+    margin-left: 15;
+    margin-bottom: 40;
+    color: red;
+}
+
 h2 {
     font-family: Overpass;
     margin-bottom: 0;
