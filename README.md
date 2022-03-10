@@ -11,4 +11,4 @@ This repository is part of the Simularium project ([simularium.allencell.org](ht
 
 View lists of .simularium files in public AWS S3 buckets and load them in the [Simularium viewer](https://simularium.allencell.org/).
 
-## See data currently available at https://allen-cell-animated.github.io/simularium-data-library/.
+## See data currently available at https://simularium.github.io/simularium-data-library/.
