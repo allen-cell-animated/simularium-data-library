@@ -61,6 +61,14 @@ h3 {
     color: red;
 }
 
+.warning {
+    font-family: Overpass;
+    font-size: 16px;
+    margin-left: 15;
+    margin-bottom: 40;
+    color: purple;
+}
+
 h2 {
     font-family: Overpass;
     margin-bottom: 0;

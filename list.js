@@ -86,7 +86,7 @@ function renderTable(files, bucket_url, exclude_dirs) {
   });
   if (n_files > 0 && n_files_listed === 0)
   {
-    content += '<div class="error">No .simularium files found in the first 1000 files (alphabetically) that were not in excluded directories.</div>';
+    content += '<div class="warning">No .simularium files found in the first 1000 files (alphabetically) that were not in excluded directories.</div>';
   }
   document.getElementById('listing').innerHTML = '<pre>' + content + '</pre>';
 }
